@@ -6,7 +6,8 @@
 trigger:
 - master
 
-pool: 'Mydemoagent'
+pool:
+ vmImage: 'windows-latest'
 
 variables:
   solution: '**/*.sln'
